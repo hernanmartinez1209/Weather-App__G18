@@ -24,7 +24,8 @@
     
 }
 .cart{
-    box-shadow: 1px 1px 15px #fff;  
+    box-shadow: 1px 1px 15px #fff; 
+    border-radius: 10px; 
 }
 .cart__h1{
     padding-bottom: 20px;
