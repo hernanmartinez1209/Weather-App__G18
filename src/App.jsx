@@ -31,7 +31,7 @@ useEffect(() => {
     axios.get(BASEURL)
     .then(res => {
       const celsius = (res.data.main.temp - 273.15).toFixed(1)
-      const farenheit =(celsius * 9/5 -32).toFixed(1)
+      const farenheit =(celsius * 9/5 + 32).toFixed(1)
       setTempertu({celsius , farenheit})
       setWeathern(res.data) 
     
